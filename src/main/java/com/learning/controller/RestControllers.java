@@ -17,7 +17,7 @@ public class RestControllers {
 	public String greetMessage1(@RequestParam String input) {
 		return "Hello " + input;
 	}
-	@GetMapping("/printTableSS/{number}")
+	@GetMapping("/printTable/{number}")
 	public String PrintTable(@PathVariable int number) {
 		String result="";
 		
